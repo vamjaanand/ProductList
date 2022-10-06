@@ -1,0 +1,46 @@
+<h1 mat-dialog-title>Add New Products</h1>
+<div mat-dialog-content>
+   <form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+        <input formControlName="ProductName" matInput placeholder="Name">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Category</mat-label>
+        <mat-select  formControlName="ProductCategory" placeholder="ProductCategory">
+            <mat-option value="maikProduct">milk product</mat-option>
+            <mat-option value="sweets">sweets</mat-option>
+            <mat-option value="namkeen">Namkeen</mat-option>
+            <mat-option value="dairyProduct">dairy product</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Product Quantity</mat-label>
+        <input formControlName="ProductQuantity" matInput type="number"placeholder="ProductQuantity">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Product Price</mat-label>
+        <input formControlName="ProductPrice" matInput type="number" placeholder="ProductPrice">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Manufacture Date</mat-label>
+        <input formControlName="ManufactureDate" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Expiery Date</mat-label>
+        <input formControlName="ExpieryDate" matInput [matDatepicker]="picker1">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Lot of Number</mat-label>
+        <input formControlName="ProductName" matInput placeholder="LotofNumber">
+      </mat-form-field>
+   </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+     <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+     <button style="margin-left: 8 px;" mat-raised-button color="primary" (click)="addProduct()" >Save</button>
+</div>

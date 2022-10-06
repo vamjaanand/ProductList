@@ -1,0 +1,68 @@
+{
+  "productlist": [
+    {
+      "ProductName": "ewfrrer",
+      "ProductCategory": "namkeen",
+      "ProductQuantity": 5435,
+      "ProductPrice": 5758,
+      "ManufactureDate": "2022-09-26T18:30:00.000Z",
+      "ExpieryDate": "2022-09-28T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "ProductName": "sev",
+      "ProductCategory": "namkeen",
+      "ProductQuantity": 2,
+      "ProductPrice": 100,
+      "ManufactureDate": "2022-09-04T18:30:00.000Z",
+      "ExpieryDate": "2022-09-21T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "ProductName": "malai peda",
+      "ProductCategory": "sweets",
+      "ProductQuantity": 15,
+      "ProductPrice": 150,
+      "ManufactureDate": "2022-09-19T18:30:00.000Z",
+      "ExpieryDate": "2022-09-24T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "ProductName": "kaju katli",
+      "ProductCategory": "sweets",
+      "ProductQuantity": 200,
+      "ProductPrice": 800,
+      "ManufactureDate": "2022-09-11T18:30:00.000Z",
+      "ExpieryDate": "2022-09-22T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "ProductName": "rasmalai",
+      "ProductCategory": "maikProduct",
+      "ProductQuantity": 20,
+      "ProductPrice": 5000,
+      "ManufactureDate": "2022-09-03T18:30:00.000Z",
+      "ExpieryDate": "2022-09-06T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "ProductName": "wefer",
+      "ProductCategory": "namkeen",
+      "ProductQuantity": 50,
+      "ProductPrice": 500,
+      "ManufactureDate": "2022-08-16T18:30:00.000Z",
+      "ExpieryDate": "2022-10-05T18:30:00.000Z",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
